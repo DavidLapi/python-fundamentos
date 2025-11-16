@@ -93,6 +93,6 @@ def main():
     # Llamar función reto1
     reto1()
 
-# TODO: Punto de entrada del programa
+# TODO 4: Punto de entrada del programa
 if __name__ == "__main__":
     main()
