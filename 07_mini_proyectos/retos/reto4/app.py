@@ -4,3 +4,4 @@
 # - Tareas: conteo, media, mediana simple, top-k más pesados.
 # - Salida: resumen por pantalla y guardado opcional a archivo.
 # **Bonus**: Usa operador morsa para leer el archivo línea por línea.
+
