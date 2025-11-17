@@ -1,3 +1,0 @@
-
-Línea válida para procesar
-Esta línea también es válida y debe procesarse
