@@ -9,3 +9,37 @@
 #   - Tengan más de 10 caracteres
 # - Cuenta cuántas líneas procesaste vs. cuántas ignoraste
 # - Guarda las líneas válidas en otro archivo
+
+from read_write import read_content, write_content 
+from line_filter import filter
+
+# TODO 2: Crear función principal
+def main():
+    print("--- Analizador de archivos línea por línea ---")
+
+    lista = [
+        "# Este es un comentario",
+        "Línea válida para procesar",
+        "Corta",
+        "",
+        "# Otro comentario",
+        "Esta línea también es válida y debe procesarse"
+    ]
+
+    # Pedir al usuario un nombre para el archivo de entrada para ver el contenido completo
+    # while not (entrada := input("\nEscribe un nombre para el archivo de lineas --> ")) or entrada.isdigit():
+        #print("❌ Nombre de entrada inválido.")
+    
+    # Pedir al usuario un nombre para el archivo de salida con las lineas filtradas
+    # while not (entrada := input("\nEscribe un nombre para el archivo de lineas --> ")) or entrada.isdigit():
+        # print("❌ Nombre de entrada inválido.")
+
+    write_content("archivo.txt", lista)
+    
+    if read_content("archivo.txt"):
+        filter("archivo.txt", "salida.txt")
+
+
+# TODO 3: Punto de entrada del programa
+if __name__ == "__main__":
+    main()
