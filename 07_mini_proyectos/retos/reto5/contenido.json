@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "titulo": "pepe",
+    "estado": "abierto"
+  },
+  {
+    "id": 2,
+    "titulo": "tolai",
+    "estado": "cerrado"
+  },
+  {
+    "id": 3,
+    "titulo": "pendenciero",
+    "estado": "abierto"
+  },
+  {
+    "id": 4,
+    "titulo": "cachopo",
+    "estado": "cerrado"
+  }
+]
