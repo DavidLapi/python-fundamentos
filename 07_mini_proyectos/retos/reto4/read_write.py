@@ -5,8 +5,8 @@ def read_file(archive):
     try:
         print(f"Leyendo archivo {archive}")
         with open(archive, "r", encoding="utf-8") as file:
-            content = file.read()
-            print(content)
+            
+            print(content := file.read())
         print(f"\nArchivo {archive} leído correctamente. ✅")
     except FileNotFoundError:
         print("❌ No se ha encontrado el archivo.")
