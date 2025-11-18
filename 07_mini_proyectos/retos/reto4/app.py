@@ -6,7 +6,7 @@
 # **Bonus**: Usa operador morsa para leer el archivo línea por línea.
 
 from read_write import read_file, write_file
-from filtertodo import multitask
+from filtertodo import multitask, write
 
 def main():
 
@@ -23,7 +23,12 @@ def main():
 
     read_file("gatos.txt")
 
-    multitask("gatos.txt", gatos)
+    media_edad, media_peso, mediana_edad, mediana_peso, top_3_pesados = multitask(gatos)
+
+    resumen = [media_edad, media_peso, mediana_edad, mediana_peso, top_3_pesados]
+
+    write("resumen.txt", resumen)
+    
 
 if __name__ == "__main__":
     main()

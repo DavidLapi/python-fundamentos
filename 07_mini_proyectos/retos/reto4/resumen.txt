@@ -1,0 +1,10 @@
+Promedio de edad: 7.0 años.
+
+Promedio de peso: 7.475 kgs.
+
+Mediana de edad: 7.0 años.
+
+Mediana de peso: 5.95 kgs.
+
+Top 3 gatos más pesados:
+[{'nombre': 'Chachito', 'edad': 10, 'peso': 13.2}, {'nombre': 'Michi', 'edad': 9, 'peso': 6.9}, {'nombre': 'Nico', 'edad': 5, 'peso': 5.0}]
