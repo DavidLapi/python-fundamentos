@@ -1,0 +1,7 @@
+
+# Este es un comentario
+Línea válida para procesar
+Corta
+
+# Otro comentario
+Esta línea también es válida y debe procesarse

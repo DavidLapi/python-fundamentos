@@ -22,7 +22,8 @@ def write_file(archive, dict):
                 file.write(f"\nGato {i}")
                 for key, value in line.items():
                     file.write(f"\n{key}: {value}")
-                file.write("\n-----------------")
+                file.write("\n----------------")
+
         print(f"\nArchivo {archive} creado y escrito correctamente. ✅")
     except Exception as e:
         print(f"❌ Error en la escritura del archivo: {e}")

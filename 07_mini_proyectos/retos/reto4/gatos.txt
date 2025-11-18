@@ -1,0 +1,21 @@
+
+Gato 1
+nombre: Michi
+edad: 9
+peso: 6.9
+----------------
+Gato 2
+nombre: Leo
+edad: 4
+peso: 4.8
+----------------
+Gato 3
+nombre: Nico
+edad: 5
+peso: 5.0
+----------------
+Gato 4
+nombre: Chachito
+edad: 10
+peso: 13.2
+----------------
